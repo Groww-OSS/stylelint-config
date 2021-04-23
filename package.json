@@ -1,0 +1,48 @@
+{
+  "name": "@groww-tech/stylelint-config",
+  "version": "1.0.0",
+  "description": "Standard Stylelint config adopted in Groww. Customized as per requirement and preferences of devs in Groww.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Groww/stylelint-config.git"
+  },
+  "keywords": [
+    "stylelint",
+    "stylelint-config",
+    "javascript",
+    "groww",
+    "css",
+    "lint"
+  ],
+  "author": "Vikas Singh <vikas.singh707@gmail.com> (https://twitter.com/VikasSi25579022)",
+  "contributors": [
+    {
+      "name": "Ankit Chouhan",
+      "url": "https://twitter.com/ankit__chouhan"
+    },
+    {
+      "name": "Rishabh Tripathi",
+      "url": "https://twitter.com/ristripathi"
+    },
+    {
+      "name": "Rishav ",
+      "url": "https://twitter.com/st_tronn"
+    }
+  ],
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Groww/stylelint-config/issues"
+  },
+  "homepage": "https://github.com/Groww/stylelint-config#readme",
+  "dependencies": {
+    "stylelint-config-standard": "^19.0.0",
+    "stylelint-declaration-use-variable": "^1.7.2"
+  },
+  "peerDependencies": {
+    "stylelint": "^13.12.0"
+  }
+}
