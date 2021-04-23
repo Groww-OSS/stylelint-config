@@ -1,6 +1,6 @@
 # stylelint-config
 
-Shared Stylelint config for Groww projects.
+Standard Stylelint config adopted in Groww. Customized as per requirement and preferences of devs in Groww.
 ## Install
 for **npm >=5**
 
