@@ -1,7 +1,8 @@
 module.exports = {
   "extends": "stylelint-config-standard",
   "plugins": [
-    "stylelint-declaration-use-variable"
+    "stylelint-declaration-use-variable",
+    "stylelint-no-unsupported-browser-features"
   ],
   "rules": {
     "declaration-no-important": [true, { "severity": "warning" }],
