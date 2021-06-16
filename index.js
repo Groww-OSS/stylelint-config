@@ -10,7 +10,7 @@ module.exports = {
     "color-hex-case": ["upper", { "severity": "warning" }],
     "sh-waqar/declaration-use-variable": [["color", "background", "background-color", "border", "z-index"], { "severity": "warning" }],
     "plugin/no-unsupported-browser-features": [true, {
-      "browsers": ["> 1%", "Last 2 versions"],
+      "browsers": ["> 2%"],
       "ignore": ["rem"],
       "ignorePartialSupport": true,
       "severity": "warning"
