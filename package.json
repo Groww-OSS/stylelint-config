@@ -40,7 +40,8 @@
   "homepage": "https://github.com/Groww/stylelint-config#readme",
   "dependencies": {
     "stylelint-config-standard": "^19.0.0",
-    "stylelint-declaration-use-variable": "^1.7.2"
+    "stylelint-declaration-use-variable": "^1.7.2",
+    "stylelint-no-unsupported-browser-features": "^5.0.1"
   },
   "peerDependencies": {
     "stylelint": "^13.12.0"
