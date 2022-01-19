@@ -1,9 +1,10 @@
 {
   "name": "@groww-tech/stylelint-config",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Standard Stylelint config adopted in Groww. Customized as per requirement and preferences of devs in Groww.",
   "main": "index.js",
   "scripts": {
+    "pushTags": "PACKAGE_VERSION=$(cat package.json | grep \\\"version\\\" | head -1 | awk -F: '{ print $2 }' | sed 's/[\",]//g' | tr -d '[[:space:]]') && git tag -a v$PACKAGE_VERSION -m \"@groww-tech/stylelint-config-v$PACKAGE_VERSION\" && git push --tags",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -44,6 +45,6 @@
     "stylelint-no-unsupported-browser-features": "^5.0.1"
   },
   "peerDependencies": {
-    "stylelint": "^13.12.0"
+    "stylelint": "^14.2.0"
   }
 }
