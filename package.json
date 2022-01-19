@@ -1,6 +1,6 @@
 {
   "name": "@groww-tech/stylelint-config",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Standard Stylelint config adopted in Groww. Customized as per requirement and preferences of devs in Groww.",
   "main": "index.js",
   "scripts": {
@@ -45,6 +45,6 @@
     "stylelint-no-unsupported-browser-features": "^5.0.1"
   },
   "peerDependencies": {
-    "stylelint": "^13.12.0"
+    "stylelint": "^14.2.0"
   }
 }
