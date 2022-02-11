@@ -1,6 +1,6 @@
 {
   "name": "@groww-tech/stylelint-config",
-  "version": "1.0.2",
+  "version": "2.0.0",
   "description": "Standard Stylelint config adopted in Groww. Customized as per requirement and preferences of devs in Groww.",
   "main": "index.js",
   "scripts": {
@@ -40,9 +40,10 @@
   },
   "homepage": "https://github.com/Groww/stylelint-config#readme",
   "dependencies": {
-    "stylelint-config-standard": "^19.0.0",
-    "stylelint-declaration-use-variable": "^1.7.2",
-    "stylelint-no-unsupported-browser-features": "^5.0.1"
+    "@groww-tech/stylelint-config": "file:.yalc/@groww-tech/stylelint-config",
+    "stylelint-config-standard": "^25.0.0",
+    "stylelint-declaration-strict-value": "^1.8.0",
+    "stylelint-no-unsupported-browser-features": "^5.0.2"
   },
   "peerDependencies": {
     "stylelint": "^14.2.0"
