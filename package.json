@@ -40,7 +40,6 @@
   },
   "homepage": "https://github.com/Groww/stylelint-config#readme",
   "dependencies": {
-    "@groww-tech/stylelint-config": "file:.yalc/@groww-tech/stylelint-config",
     "stylelint-config-standard": "^25.0.0",
     "stylelint-declaration-strict-value": "^1.8.0",
     "stylelint-no-unsupported-browser-features": "^5.0.2"
