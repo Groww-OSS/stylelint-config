@@ -1,3 +1,4 @@
+# !!! The repo has been migrated to [webster](https://github.com/Groww/webster)
 # stylelint-config
 
 Standard Stylelint config adopted in Groww. Customized as per requirement and preferences of devs in Groww.
